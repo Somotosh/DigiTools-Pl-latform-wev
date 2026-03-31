@@ -1,12 +1,20 @@
 import React, { useState } from 'react';
 import { FaCheck } from "react-icons/fa6"
+import { toast } from 'react-toastify';
 
 const ProductsCard = ({ model, cards ,setCards}) => {
     const [isBuyNow, setBuyNow] = useState(false)
 
     const hendelButton = () => {
         setBuyNow(true)
+
+        const isFound =cards.find(item=> item.id === model.id)
+        if(isFound){
+            toast.error("Item already in buy")
+            return;
+        }
         setCards([...cards ,model])
+        toast.success('Buy card successfully')
     }
     return (
 

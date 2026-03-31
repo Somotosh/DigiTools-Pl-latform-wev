@@ -1,16 +1,19 @@
 import React from 'react';
 import { MdDelete } from "react-icons/md";
+import { toast } from 'react-toastify';
 
 const BuyCard = ({ cards, setCards }) => {
     const totalPrice = cards.reduce((sum, item) => sum + item.price, 0)
 
     const hendelPyament = () => {
         setCards([])
+        toast.success('Proceed to Checkout successfully')
     }
 
     const hendelDelete =(item)=>{
         const filterCard = cards.filter(card => card.id !== item.id)
         setCards(filterCard)
+         toast.success('Card deleted ')
     }
 
     return (

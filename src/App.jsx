@@ -8,32 +8,33 @@ import Cadrs from './Component/Cadrs';
 import BuyCard from './Component/BuyCard';
 
 
- const getModel = async () =>{
-  
-    const res = await fetch('/models.json')
-    return res.json()
-  }
+const getModel = async () => {
 
-  const modelPromes = getModel()
-  // console.log(modelPromes)
+  const res = await fetch('/models.json')
+  return res.json()
+}
+
+const modelPromes = getModel()
+// console.log(modelPromes)
 
 function App() {
-  const [activeTab ,setActiveTab] =useState('products')
-  
-  
+  const [activeTab, setActiveTab] = useState('products')
+  const [cards, setCards] = useState([])
+
+
 
   return (
     <>
-    <Navber />
-    <Banner />
-    <StatsSection />
-    <ToolsSection />
-    <Tabes activeTab={activeTab} setActiveTab={setActiveTab} />
-     
-     {activeTab ==="products" && <Cadrs modelPromes={modelPromes}/>}
-     {activeTab ==="buyCard" &&  <BuyCard />}
-    
-    
+      <Navber />
+      <Banner />
+      <StatsSection />
+      <ToolsSection />
+      <Tabes activeTab={activeTab} setActiveTab={setActiveTab} />
+
+      {activeTab === "products" && <Cadrs modelPromes={modelPromes} cards={cards} setCards={setCards} />}
+      {activeTab === "buyCard" && <BuyCard cards={cards} />}
+
+
     </>
 
   )

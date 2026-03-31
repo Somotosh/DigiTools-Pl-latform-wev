@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { FaCheck } from "react-icons/fa6"
 
-const ProductsCard = ({ model }) => {
+const ProductsCard = ({ model, cards ,setCards}) => {
     const [isBuyNow, setBuyNow] = useState(false)
 
     const hendelButton = () => {
         setBuyNow(true)
+        setCards([...cards ,model])
     }
     return (
 

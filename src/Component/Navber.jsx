@@ -44,7 +44,7 @@ const Navber = () => {
 
                     </div>
                 </div>
-                    <a>Login</a>
+                    <a className='cursor-pointer'>Login</a>
                     <a className="btn rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]  text-white font-semibold">Get Started</a>
                 </div>
             </div>

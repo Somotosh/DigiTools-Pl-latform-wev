@@ -1,5 +1,6 @@
 import React from 'react';
 import Navber from './Component/Navber';
+import Banner from './Component/Banner';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
     <Navber />
+    <Banner />
     </>
 
   )

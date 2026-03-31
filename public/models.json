@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions and modern templates.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI suggestions"
+    ],
+    "icon": "file-text",
+    "image": "https://cdn-icons-png.flaticon.com/128/3135/3135715.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning personal portfolio website with ease.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Responsive design",
+      "Custom domain support",
+      "SEO optimized",
+      "Drag & drop builder"
+    ],
+    "icon": "layout",
+    "image": "https://cdn-icons-png.flaticon.com/128/1006/1006363.png"
+  },
+  {
+    "id": 3,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to kickstart your freelancing career.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Client proposal templates",
+      "Invoice generator",
+      "Time tracking",
+      "Beginner guide"
+    ],
+    "icon": "briefcase",
+    "image": "https://cdn-icons-png.flaticon.com/128/1995/1995574.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Content Generator",
+    "description": "Generate high-quality content for blogs, ads, and social media.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Blog writing",
+      "Ad copy generator",
+      "Social media posts",
+      "Multi-language support"
+    ],
+    "icon": "cpu",
+    "image": "https://cdn-icons-png.flaticon.com/128/4712/4712109.png"
+  },
+  {
+    "id": 5,
+    "name": "Job Application Tracker",
+    "description": "Track and manage all your job applications in one place.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Status updates",
+      "Notes section"
+    ],
+    "icon": "check-square",
+    "image": "https://cdn-icons-png.flaticon.com/128/1828/1828919.png"
+  },
+  {
+    "id": 6,
+    "name": "Design Assets Bundle",
+    "description": "Get thousands of icons, illustrations, and UI kits.",
+    "price": 79,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "5000+ icons",
+      "UI kits",
+      "Illustrations",
+      "Regular updates"
+    ],
+    "icon": "image",
+    "image": "https://cdn-icons-png.flaticon.com/128/1829/1829586.png"
+  },
+  {
+    "id": 7,
+    "name": "Online Course Platform",
+    "description": "Create and sell your own online courses.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Video hosting",
+      "Student management",
+      "Payment integration",
+      "Analytics dashboard"
+    ],
+    "icon": "video",
+    "image": "https://cdn-icons-png.flaticon.com/128/2991/2991112.png"
+  },
+  {
+    "id": 8,
+    "name": "SEO Optimization Tool",
+    "description": "Improve your website ranking with advanced SEO tools.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Keyword research",
+      "Site audit",
+      "Backlink analysis",
+      "Competitor tracking"
+    ],
+    "icon": "search",
+    "image": "https://cdn-icons-png.flaticon.com/128/622/622669.png"
+  }
+]

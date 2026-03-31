@@ -33,7 +33,7 @@ const ProductsCard = ({ model, cards ,setCards}) => {
                     </ul>
 
                 </div>
-                <button onClick={hendelButton} className='btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-full rounded-full'>{isBuyNow ? "confram" : 'Buy Now'}</button>
+                <button onClick={hendelButton} className='btn text-white bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-full rounded-full'>{isBuyNow ? "confram" : 'Buy Now'}</button>
             </div>
 
         </div>

@@ -32,7 +32,7 @@ function App() {
       <Tabes activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {activeTab === "products" && <Cadrs modelPromes={modelPromes} cards={cards} setCards={setCards} />}
-      {activeTab === "buyCard" && <BuyCard cards={cards} />}
+      {activeTab === "buyCard" && <BuyCard cards={cards} setCards={setCards} />}
 
 
     </>

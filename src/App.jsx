@@ -6,6 +6,7 @@ import ToolsSection from './Component/ToolsSection';
 import Tabes from './Component/Tabes';
 import Cadrs from './Component/Cadrs';
 import BuyCard from './Component/BuyCard';
+import StepsSection from './Component/StepsSection';
 
 
 const getModel = async () => {
@@ -33,6 +34,8 @@ function App() {
 
       {activeTab === "products" && <Cadrs modelPromes={modelPromes} cards={cards} setCards={setCards} />}
       {activeTab === "buyCard" && <BuyCard cards={cards} setCards={setCards} />}
+
+      <StepsSection />
 
 
     </>

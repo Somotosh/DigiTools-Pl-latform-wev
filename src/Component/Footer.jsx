@@ -5,7 +5,7 @@ import { FaFacebook, FaXTwitter } from 'react-icons/fa6';
 const Footer = () => {
     return (
         <div className=' bg-[rgb(16,23,39)]'>
-            <div className='w-11/12 mx-auto text-left sm:text-center'>
+            <div className='w-11/12 mx-auto'>
                 <div className='grid md:grid-cols-6 space-y-4 items-center  gap-2 text-white py-20 border-b border-gray-50'>
 
                     <div className='col-span-2 space-y-3'>
@@ -42,7 +42,7 @@ const Footer = () => {
                     </div>
                     <div className='col-span-1' >
                         <h3 className='text-xl'>Social Links</h3>
-                        <div className='flex gap-2 items-center'>
+                        <div className='flex gap-2 items-center '>
                             <div className="border text-black bg-white flex items-center justify-center w-8 h-8   font-bold rounded-full ">
                                 <p><FaInstagram /></p>
                             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                     <div className='flex items-center gap-4'>
                         <p>Privacy Policy </p>
                         <p>erms of Service </p>
-                        <p>  Cookies</p>
+                        <p>Cookies</p>
                     </div>
                 </div>
             </div>

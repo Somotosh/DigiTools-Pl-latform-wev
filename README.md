@@ -1,16 +1,18 @@
-# React + Vite
+Project Name: digitools-platform-001
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based digital web application where users can buy premium subscriptions for different types of apps.
 
-Currently, two official plugins are available:
+Technologies Used:
+React
+JavaScript
+Tailwind CSS
+Daisy UI
+HTML
+CSS
+React Toastify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Key Features:
+The number of products in the cart is shown in real-time in both the navbar and cart icon.
+The total amount of all products in the cart is calculated and displayed automatically.
+When a product is removed from the cart, the product count and total amount are updated.
+Interactive notifications are shown using React Toastify when adding, removing, and checking out products.

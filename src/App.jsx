@@ -8,6 +8,7 @@ import Cadrs from './Component/Cadrs';
 import BuyCard from './Component/BuyCard';
 import StepsSection from './Component/StepsSection';
 import PricingSection from './Component/PricingSection';
+import Footer from './Component/Footer';
 
 
 const getModel = async () => {
@@ -38,6 +39,7 @@ function App() {
 
       <StepsSection />
       <PricingSection />
+      <Footer />
 
 
     </>

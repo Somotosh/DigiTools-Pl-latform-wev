@@ -5,7 +5,7 @@ import packageLogo from '../assets/package.png'
 
 const StepsSection = () => {
     return (
-        <div className='mt-10 mb-10 w-11/12 sm:w-10/12 mx-auto'>
+        <div className='mt-18 mb-20 w-11/12 sm:w-10/12 mx-auto'>
             <div className='text-center space-y-3'>
                 <h1 className='text-2xl sm:text-4xl font-bold'>Get Started in 3 Steps</h1>
                 <p>Start using premium digital tools in minutes, not hours.</p>

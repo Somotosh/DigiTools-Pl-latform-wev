@@ -18,7 +18,7 @@ const ProductsCard = ({ model, cards ,setCards}) => {
     }
     return (
 
-        <div className='shadow-lg rounded-lg border border-amber-100 h-full'>
+        <div className='w-11/12 sm:w-10/12 mx-auto shadow-lg rounded-lg border border-amber-100 h-full'>
             <div className='space-y-3 p-6'>
                 <div className='flex justify-end '>
                     <p className={`badge badge-md ${model.tag === 'popular' ?

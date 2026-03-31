@@ -25,11 +25,11 @@ function App() {
 
   return (
     <>
-      <Navber />
+      <Navber cards={cards} />
       <Banner />
       <StatsSection />
       <ToolsSection />
-      <Tabes activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Tabes activeTab={activeTab} setActiveTab={setActiveTab}  cards={cards} />
 
       {activeTab === "products" && <Cadrs modelPromes={modelPromes} cards={cards} setCards={setCards} />}
       {activeTab === "buyCard" && <BuyCard cards={cards} setCards={setCards} />}

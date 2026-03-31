@@ -6,7 +6,7 @@ import { CiPlay1 } from "react-icons/ci";
 const Banner = () => {
     return (
         <div >
-            <div className='flex flex-col sm:flex-row justify-between  gap-3 max-w-11/12 mx-auto mt-10 space-y-6'>
+            <div className='flex flex-col sm:flex-row justify-center sm:justify-between  gap-3 max-w-11/12 mx-auto mt-10 space-y-6'>
 
                 <div className= 'mt-5 sm:mt-18 '>
 

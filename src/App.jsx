@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navber from './Component/Navber';
 import Banner from './Component/Banner';
 import StatsSection from './Component/StatsSection';
 import ToolsSection from './Component/ToolsSection';
 import Tabes from './Component/Tabes';
 import Cadrs from './Component/Cadrs';
+import BuyCard from './Component/BuyCard';
 
 
  const getModel = async () =>{
@@ -14,9 +15,11 @@ import Cadrs from './Component/Cadrs';
   }
 
   const modelPromes = getModel()
-  console.log(modelPromes)
+  // console.log(modelPromes)
 
 function App() {
+  const [activeTab ,setActiveTab] =useState('products')
+  
   
 
   return (
@@ -25,8 +28,12 @@ function App() {
     <Banner />
     <StatsSection />
     <ToolsSection />
-    <Tabes />
-    <Cadrs modelPromes={modelPromes}/>
+    <Tabes activeTab={activeTab} setActiveTab={setActiveTab} />
+     
+     {activeTab ==="products" && <Cadrs modelPromes={modelPromes}/>}
+     {activeTab ==="buyCard" &&  <BuyCard />}
+    
+    
     </>
 
   )

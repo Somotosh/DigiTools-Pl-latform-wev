@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaCheck } from "react-icons/fa6"
 
 const ProductsCard = ({ model }) => {
+    const [isBuyNow, setBuyNow] = useState(false)
+
+    const hendelButton = () => {
+        setBuyNow(true)
+    }
     return (
 
         <div className='shadow-lg rounded-lg border border-amber-100 h-full'>
@@ -27,7 +32,7 @@ const ProductsCard = ({ model }) => {
                     </ul>
 
                 </div>
-                <button className='btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-full rounded-full'>Buy Now</button>
+                <button onClick={hendelButton} className='btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] w-full rounded-full'>{isBuyNow ? "confram" : 'Buy Now'}</button>
             </div>
 
         </div>
